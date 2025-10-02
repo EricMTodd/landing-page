@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	background-color: gray;
+	color: white;
+}
+
+nav {
+	box-sizing: border-box;
+	border-bottom: 2px solid white;
+	height: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	height: 125px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	box-sizing: border-box;
+	border-bottom: 2px solid white;
+	min-height: 80vh;
+}
