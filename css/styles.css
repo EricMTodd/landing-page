@@ -1,29 +1,66 @@
+/*HTML Selectors*/
+
+* {
+	font-family: sans-serif;
+}
+
 body {
 	margin: 0;
-	background-color: gray;
-	color: white;
+	min-height: 100vh;
 }
 
 nav {
-	box-sizing: border-box;
-	border-bottom: 2px solid white;
-	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 64px;
 }
 
-a {
-	text-decoration: none;
-	color: white;
+main {
+	padding: 0 10%;
 }
 
 footer {
-	height: 125px;
+	height: 128px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
+a {
+	text-decoration: none;
+}
+
+img {
+	height: 64%;
+	border-radius: 15px;
+	box-shadow: 2px 6px 12px black;
+}
+
+button {
+	font-size: 16px;
+	padding: 2px 24px;
+}
+
+/*Class Selectors*/
+
+.left-links {
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.right-links {
+	display: flex;
+	gap: 36px;
+	font-size: 24px;
+}
+
 .container {
-	box-sizing: border-box;
-	border-bottom: 2px solid white;
-	min-height: 80vh;
+	display: flex;
+	height: 80vh;
+	align-items: center;
+}
+
+.hero {
+	gap: 10%;
 }
