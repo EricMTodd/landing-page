@@ -64,3 +64,29 @@ button {
 .hero {
 	gap: 10%;
 }
+
+.info {
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.info-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+	text-align: center;
+}
+
+.info-box > div {
+	height: 200px;
+	width: 200px;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+.info-box-container {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
